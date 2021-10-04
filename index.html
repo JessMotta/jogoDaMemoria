@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+    <div id="gameBoard">
+        <!-- o id serve para identificar que mesmo sendo a mesma imagem são cartas diferentes 
+    e o data-icon serve para comparar se as cartas têm a mesma imagem -->
+        <!-- <div id="aushaush" class="card " data-icon="bootstrap">
+            <div class="card_front">
+                <img class="icon" src="./assets/images/bootstrap.png">
+            </div>
+            <div class="card_back">
+                &lt/&gt
+            </div>
+        </div>
+        -->
+    </div>
+
+    <div id="gameOver">
+        <div>
+            Parabéns, você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()">Jogue novamente</button>
+
+    </div>
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
